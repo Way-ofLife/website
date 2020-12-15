@@ -68,7 +68,11 @@ export default {
       }
     }
   },
-
+  router: {
+    base: process.env.DEPLOY_ENV === 'DEVELOP'
+    ? '/website/'
+    : undefined,
+  },
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
   }
