@@ -20,8 +20,9 @@ export default {
     ** github pagesにデプロイするときはheadに{base: ~~}が追加される。
     ** それ以外では追加されていない(underfind)
     */
-   base: {
-    href: process.env.DEPLOY_ENV === 'DEVELOP' ? '/website/'
+    base: {
+      href: process.env.DEPLOY_ENV === 'DEVELOP' ? '/website/'
+      : '/'
     },
     titleTemplate: '%s - nuxt',
     title: 'nuxt',
@@ -78,8 +79,8 @@ export default {
   },
   router: {
     base: process.env.DEPLOY_ENV === 'DEVELOP'
-    ? '/website/'
-    : undefined,
+      ? '/website/'
+      : undefined,
   },
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
