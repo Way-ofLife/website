@@ -4,6 +4,15 @@ export default {
   // Target (https://go.nuxtjs.dev/config-target)
   mode: 'universal',
   target: 'static',
+  /**
+   * github-pagesにデプロイするときはtrueになる
+   * 詳しくは.github/workflows/gh-pages.ymlを参照
+   */
+  router: {
+    base: process.env.DEPLOY_ENV === 'DEVELOP' ? '/website/'
+      : process.env.DEPLOY_ENV === 'REVIEW' ? '/review/'
+        : '/'
+  },
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
@@ -11,13 +20,9 @@ export default {
     ** github pagesにデプロイするときはheadに{base: ~~}が追加される。
     ** それ以外では追加されていない(underfind)
     */
-   base: process.env.DEPLOY_ENV === 'DEVELOP'
-   ? {
-    router: {
-      base: '/website/'
-    }
-   }
-   : undefined,
+   base: {
+    href: process.env.DEPLOY_ENV === 'DEVELOP' ? '/website/'
+    },
     titleTemplate: '%s - nuxt',
     title: 'nuxt',
     meta: [
