@@ -13,7 +13,9 @@ export default {
     */
    base: process.env.DEPLOY_ENV === 'DEVELOP'
    ? {
-     href: 'router.base'
+    router: {
+      base: '/website/'
+    }
    }
    : undefined,
     titleTemplate: '%s - nuxt',
