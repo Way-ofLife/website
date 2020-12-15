@@ -6,6 +6,15 @@ export default {
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
+    /*
+    ** github pagesにデプロイするときはheadに{base: ~~}が追加される。
+    ** それ以外では追加されていない(underfind)
+    */
+   base: process.env.DEPLOY_ENV === 'DEVELOP'
+   ? {
+     href: 'router.base'
+   }
+   : undefined,
     titleTemplate: '%s - nuxt',
     title: 'nuxt',
     meta: [
