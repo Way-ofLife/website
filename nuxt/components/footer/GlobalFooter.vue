@@ -19,7 +19,7 @@
                 cols="12"
               >
                 <v-img
-                  src="tedxnagoyau_1line_white_background.png"
+                  src="HumansofMeidai.jpg"
                   max-width="100"
                 />
               </v-col>

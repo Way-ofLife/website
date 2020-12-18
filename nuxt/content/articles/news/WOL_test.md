@@ -1,8 +1,11 @@
 ---
-title: TEDxNagoyaU "Steer Your Ship" 終了報告
-description: TEDxNagoyaUの2020年メインイベントは盛況のもと終演いたしました。
-date: 2020/10/14
+title: WOL
+description: WOL テスト記事
+date: 2020/12/18
 tags: ["2020"]
+thumbnail: HumansofMeidai.jpg
+---
+<!--
 meta_tag: [
   {
     hid: 'og:title',
@@ -20,8 +23,7 @@ meta_tag: [
     content: 'https://tedxnagoyau.com/article/news/2020_event_end/ogp.jpg'
   }
 ]
-thumbnail: article/news/2020_event_end/ogp.jpg
----
+-->
 
 ![キービジュアル](article/news/2020_event_end/ogp.jpg)
 
