@@ -1,1 +1,0 @@
-window.__NUXT__={staticAssetsBase:"\u002Fwebsite\u002F_nuxt\u002Fstatic\u002F1608283924",layout:"default",error:null,serverRendered:true,routePath:"\u002Farticles\u002Fnews\u002Finterview_with_the_designer_of_the_keyvisual",config:{content:{dbHash:"71c8456b"}}};
