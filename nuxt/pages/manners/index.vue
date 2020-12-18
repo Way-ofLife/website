@@ -1,4 +1,6 @@
 <template>
+<div></div>
+<!--
   <div class="policy">
     <div class="paper">
       <div class="paper-header">
@@ -49,6 +51,7 @@
       </div>
     </div>
   </div>
+  -->
 </template>
 
 <script>

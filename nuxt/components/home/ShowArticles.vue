@@ -13,7 +13,6 @@
           depressed
           to="/articles"
           nuxt
-          @click.native="eventOfClickedShowMoreArticles"
         >
           もっと見る
         </v-btn>

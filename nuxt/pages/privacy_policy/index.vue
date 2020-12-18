@@ -9,6 +9,7 @@
           プライバシーポリシー
         </h3>
       </div>
+      <!--
       <div class="paper-content">
         <p>TEDxNagoyaU実行委員会（以下、「当組織」）は、以下の通り個人情報保護方針を定め、個人情報保護の仕組みを構築し、個人情報の保護を推進いたします。</p>
 
@@ -54,6 +55,7 @@
         <p>Mail:<a href="mailto:info@tedxnagoyau.com">info@tedxnagoyau.com</a></p>
         <p>最終更新日：2020年9月9日</p>
       </div>
+      -->
     </div>
   </div>
 </template>
