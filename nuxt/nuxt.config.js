@@ -9,9 +9,7 @@ export default {
    * 詳しくは.github/workflows/gh-pages.ymlを参照
    */
   router: {
-    base: process.env.DEPLOY_ENV === 'DEVELOP' ? '/website/'
-      : process.env.DEPLOY_ENV === 'REVIEW' ? '/review/'
-        : '/'
+    base: '/website/'
   },
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
